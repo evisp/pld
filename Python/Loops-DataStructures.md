@@ -128,13 +128,9 @@ The file `users.csv` contains a randomly generated list of users together with t
 The goal is to load the CSV file into a dictionary with the names as keys and the emails as values so that we can quickly look up the email address of a user given its name.
 
 **Instructions**
-
 	- Use the `csv` module to read the `users.csv` file. Remember to ignore the header row (first row).
-
 	- Build a dictionary named `name_to_email` with user names as keys and email addresses as values.
-
 	- Look up the email addresses of users `Mr Jordan Castro` and `Ms Emilia Vega` by looking up the dictionary created in the previous step.
-
 	- Assign the email addresses to variables `jordan_email` and `emilia_email`.
 
 ## The right words to express oneself can never be found in any dictionary
