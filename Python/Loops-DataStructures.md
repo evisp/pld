@@ -129,13 +129,13 @@ The goal is to load the CSV file into a dictionary with the names as keys and th
 
 **Instructions**
 
-- Use the `csv` module to read the `users.csv` file. Remember to ignore the header row (first row).
+	- Use the `csv` module to read the `users.csv` file. Remember to ignore the header row (first row).
 
-- Build a dictionary named `name_to_email` with user names as keys and email addresses as values.
+	- Build a dictionary named `name_to_email` with user names as keys and email addresses as values.
 
-- Look up the email addresses of users `Mr Jordan Castro` and `Ms Emilia Vega` by looking up the dictionary created in the previous step.
+	- Look up the email addresses of users `Mr Jordan Castro` and `Ms Emilia Vega` by looking up the dictionary created in the previous step.
 
-- Assign the email addresses to variables `jordan_email` and `emilia_email`.
+	- Assign the email addresses to variables `jordan_email` and `emilia_email`.
 
 ## The right words to express oneself can never be found in any dictionary
 
@@ -147,13 +147,13 @@ In this problem, we are going to reverse that dictionary so that we can look up 
 
 The dictionary `name_to_email` from the previous task is still available.
 
-    1. Create a dictionary named `email_to_name` with the values of `name_to_email` as keys and having those map to the original keys. In other words, if `name_to_email[x] = y` then `email_to_name[y] = x`.
+    - Create a dictionary named `email_to_name` with the values of `name_to_email` as keys and having those map to the original keys. In other words, if `name_to_email[x] = y` then `email_to_name[y] = x`.
 
-    2. By looking up the dictionary created in the previous step, lookup the name of the user with email address `jordan.castro@example.com`.
+    - By looking up the dictionary created in the previous step, lookup the name of the user with email address `jordan.castro@example.com`.
 
-    3. Assign that user name to a variable named `name`.
+    - Assign that user name to a variable named `name`.
 
-    4. Print the value of variable `name`.
+    - Print the value of variable `name`.
 
 ## Laughter is brightest where food is best
 
