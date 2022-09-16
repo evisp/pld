@@ -54,27 +54,27 @@ print(count([2, 2, 2, 1, 2, 1, 0, 0, 0, 2], 1))
 ```
 
 Create a function, `count`, with the following features:
-       - Takes in a list as its first argument.
-       - The second argument is a potential element of the first.	
-       - Counts how many times the second argument occurs in the first and returns the value.
+- Takes in a list as its first argument.
+- The second argument is a potential element of the first.	
+- Counts how many times the second argument occurs in the first and returns the value.
 
 ## Find first
 
 Create a function, `find_first`, that given a list and an object
 
-       - Returns index of the first occurrence of the object in the list, if it's in it.
-       - Otherwise returns `-1`
+- Returns index of the first occurrence of the object in the list, if it's in it.
+- Otherwise returns `-1`
 
 You have to use `try - except`
 
 ## Insert an element
 
 Create a function, `insert`, with the following features:
-       - Takes a list as its first argument.
-       - Takes any object as its second argument.
-       - The third argument is the non-negative index in which the given object will be located in the result.
-       - Pushes the element that was previously located on the given index, and the following elements, one position to the right.
-       - Returns a new list.
+- Takes a list as its first argument.
+- Takes any object as its second argument.
+- The third argument is the non-negative index in which the given object will be located in the result.
+- Pushes the element that was previously located on the given index, and the following elements, one position to the right.
+- Returns a new list.
 
 
 ## Keys to list
@@ -128,10 +128,10 @@ The file `users.csv` contains a randomly generated list of users together with t
 The goal is to load the CSV file into a dictionary with the names as keys and the emails as values so that we can quickly look up the email address of a user given its name.
 
 **Instructions**
-	- Use the `csv` module to read the `users.csv` file. Remember to ignore the header row (first row).
-	- Build a dictionary named `name_to_email` with user names as keys and email addresses as values.
-	- Look up the email addresses of users `Mr Jordan Castro` and `Ms Emilia Vega` by looking up the dictionary created in the previous step.
-	- Assign the email addresses to variables `jordan_email` and `emilia_email`.
+- Use the `csv` module to read the `users.csv` file. Remember to ignore the header row (first row).
+- Build a dictionary named `name_to_email` with user names as keys and email addresses as values.
+- Look up the email addresses of users `Mr Jordan Castro` and `Ms Emilia Vega` by looking up the dictionary created in the previous step.
+- Assign the email addresses to variables `jordan_email` and `emilia_email`.
 
 ## The right words to express oneself can never be found in any dictionary
 
@@ -143,20 +143,20 @@ In this problem, we are going to reverse that dictionary so that we can look up 
 
 The dictionary `name_to_email` from the previous task is still available.
 
-    - Create a dictionary named `email_to_name` with the values of `name_to_email` as keys and having those map to the original keys. In other words, if `name_to_email[x] = y` then `email_to_name[y] = x`.
+- Create a dictionary named `email_to_name` with the values of `name_to_email` as keys and having those map to the original keys. In other words, if `name_to_email[x] = y` then `email_to_name[y] = x`.
 
-    - By looking up the dictionary created in the previous step, lookup the name of the user with email address `jordan.castro@example.com`.
+- By looking up the dictionary created in the previous step, lookup the name of the user with email address `jordan.castro@example.com`.
 
-    - Assign that user name to a variable named `name`.
+- Assign that user name to a variable named `name`.
 
-    - Print the value of variable `name`.
+- Print the value of variable `name`.
 
 ## Laughter is brightest where food is best
 
 The dataset for this problem is in the CSV file `restaurants.csv`. This CSV contains locations of more than 1000 restaurants. It has the following columns: `Restaurant name, Restaurant ID, Cuisine, Opens, Closes, Days Open, Price, Rating, Location, Description`.
 
-    1. Use the `csv` module to read the `restaurants.csv` file.
+- Use the `csv` module to read the `restaurants.csv` file.
 
-    2. Build a frequency table for counting the cuisines categories 
+- Build a frequency table for counting the cuisines categories 
 
-    3. Assign the name of the cuisine with the most restaurants to a variable named `most_restaurants`. If there are several answers, any will be marked as correct.
+- Assign the name of the cuisine with the most restaurants to a variable named `most_restaurants`. If there are several answers, any will be marked as correct.
