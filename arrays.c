@@ -48,14 +48,6 @@ int is_found(int *array, int size, int element)
 
 
 int main(void)
-{
-  int array[4] = {1, 2, 3, 4};
-  
-  int sum = sum_array(array, 4);
-  printf("Sum is %d \n", sum);
-
-  int min = min_array(array, 4);
-  printf("Min is %d \n", min);
-  
+{  
   return (0);
 }
