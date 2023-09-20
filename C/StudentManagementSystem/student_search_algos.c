@@ -1,30 +1,30 @@
 #include "student.h"
 
-int linearSearch(struct Student arr[], int n, char searchName[]) {
+int linearSearch(Student arr[], int n, char searchName[]) {
     int i;
-    for (i = 0; i < n; i++) {
-        if (strcmp(arr[i].name, searchName) == 0) {
-            return i; // Student found, return index
-        }
+    for (i=0; i<n; i++){
+        if (strcmp(arr[i].name, searchName) == 0)
+            return i;
     }
-    return -1; // Student not found
+    return -1;
 }
 
-
 // Function to perform binary search on student records by name
-int binarySearch(struct Student arr[], int low, int high, char key[]) {
-    while (low <= high) {
-        int mid = (low + high) / 2;
-        int cmp = strcmp(arr[mid].name, key);
-        
-        if (cmp == 0) {
-            return mid; // Student found
-        } else if (cmp < 0) {
-            low = mid + 1;
-        } else {
-            high = mid - 1;
-        }
-    }
-    
-    return -1; // Student not found
+int binarySearch(Student arr[], int low, int high, char key[]) {
+   
+   int mid;
+
+   while (low <= high) {
+    mid = (low + high) / 2;
+
+    if (strcmp(arr[mid].name, key) == 0)
+        return mid;
+    if (strcmp(arr[mid].name, key) > 0)
+        high = mid - 1;
+    else
+        low = mid + 1;
+
+   }
+
+   return -1;
 }
